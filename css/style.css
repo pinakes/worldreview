@@ -35,7 +35,7 @@ body {
 	padding: 0;
 	margin: 0;
 }
-ul, p {
+ul, p, .txt {
 	font-family: "Main-Regular", Helvetica, arial, sans-serif;
 }
 ul {
@@ -58,6 +58,15 @@ h1.huge {
     top: 40%;
     transform: translateY(-80%);
     text-align: center;
+}
+.txt.white a {
+	color: #fff;
+}
+.txt a, .txt a:visited, .txt a:active {
+	text-decoration: underline;
+}
+.txt a:hover {
+	text-decoration: none;
 }
 #sidebar h2 {
 	font-size: 3em;
@@ -134,6 +143,7 @@ h1.huge {
 	height: 100vh;
 	background: #165a1a;
 	color: #fff;
+	z-index: 10;
 }
 .about p {
 	font-size: 22px;
@@ -166,6 +176,15 @@ h1.huge {
     width: 400px;
     float: left;
     height: 38px;
+    font-size: 22px;
+}
+#mc_embed_signup div.mce_inline_error {
+    margin: 0.5em 1em 0 1em;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #6B0505;
+    color: #fff;
+    font-size: 12px;
 }
 .clear {
 	clear: both;
@@ -185,6 +204,15 @@ h1.huge {
     bottom: 49px;
     font-family: "main-regular", helvetica, arial, sans-serif;
     font-size: .8em;
+}
+span.txt-img {
+	display: -webkit-inline-box; 
+	overflow: visible; 
+	position: relative; 
+	height: 45px;
+}
+span.txt-img img {
+	position: relative;
 }
 
 :focus {

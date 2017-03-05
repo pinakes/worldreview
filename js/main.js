@@ -15,7 +15,7 @@ function sticky_relocate() {
         $('#sphere').width("300");
     }
 }
-
+/*
 function showMenu() {
     document.getElementById('world').style.visibility = "hidden";
     document.getElementById('menu').style.visibility = "visible";
@@ -25,3 +25,4 @@ function showWorld() {
     document.getElementById('world').style.visibility = "visible";
     document.getElementById('menu').style.visibility = "hidden";
 }
+*/
